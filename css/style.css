@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-one: white;
+  --footer-coor: rgba(144, 212, 198, 1);
+  --paragraph-color: rgba(69, 141, 126, 1);
+  --color-three: black;
+  --link-one: rgba(250, 212, 0, 1);
+  --link-two: rgba(254, 119, 102, 1);
+}
+
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+header {
+  width: 1440px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+}
+.nav-main {
+  width: 1440px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.nav-list:hover {
+  width: 140px;
+  height: 56px;
+  text-align: center;
+  background-color: var(--color-one);
+  color: var(--color-three);
+  border-radius: 28px;
+}
+.burger-menu {
+  width: 24px;
+  height: 18px;
+  display: none;
+}
+h1 {
+  font-size: 56px;
+  margin-top: 105px;
+  color: var(--color-one);
+}
+.header-image {
+  width: 1440px;
+  height: 800px;
+}
+nav {
+  position: relative;
+  margin-top: 40px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-top {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h3 {
+  color: var(--color-one);
+  font-size: 50px;
+  font-weight: bold;
+}
+.navigation {
+  width: 465px;
+  height: 56px;
+  color: var(--color-one);
+  font-size: 18px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrow {
+  margin-top: 100px;
+}
+.cherry {
+  width: 720px;
+  height: 600px;
+}
+.section-one {
+  width: 1440px;
+  height: 1800px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-containers {
+  width: 720px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+span {
+  width: 137px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+.span-one {
+  border-bottom: 3px solid var(--link-one);
+}
+.span-two {
+  border-bottom: 3px solid var(--link-two);
+}
+.first-container {
+  width: 445px;
+  height: 285px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cherry-container {
+  color: var(--paragraph-color);
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+.orange-container {
+  color: var(--paragraph-color);
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+.inside-container {
+  width: 339px;
+  height: 143px;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+h4 {
+  font-size: 28px;
+  font-weight: bolder;
+}
+.section-two {
+  width: 1440px;
+  height: 777px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-div {
+  width: 760px;
+  height: 457px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.second-down {
+  display: flex;
+}
+.down-containers {
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+footer {
+  width: 1440px;
+  height: 797px;
+}
+.footer-up {
+  width: 1440px;
+  height: 447px;
+  display: flex;
+}
+.footer-down {
+  width: 1440px;
+  height: 350px;
+  display: flex;
+}
+.footer-containers {
+  width: 360px;
+  height: 447px;
+  justify-content: center;
+  align-items: center;
+}
+.footer-down {
+  background-color: var(--footer-coor);
+  color: var(--paragraph-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-nav {
+  width: 297px;
+  height: 206px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-list {
+  width: 297px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.info {
+  cursor: pointer;
+}
+.info:hover {
+  color: var(--color-one);
+}
+
+.icons {
+  width: 164px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-icons {
+  cursor: pointer;
+}
+.footer-icons:hover {
+  background-color: var(--color-one);
+}
+@media screen and (max-width: 375px) {
+  body {
+    width: 375px;
+  }
+  .main-div {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header {
+    width: 327px;
+    height: 388px;
+    justify-content: center;
+  }
+  .nav-main {
+    width: 375px;
+  }
+  nav {
+    width: 375px;
+  }
+  .burger-menu {
+    display: block;
+  }
+  .nav-top {
+    width: 327px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  .navigation {
+    width: 329px;
+    height: 329px;
+    background-color: var(--color-one);
+    color: var(--color-three);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .nav-left {
+    width: 327px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-list:hover {
+    background-color: var(--link-one);
+  }
+  h1 {
+    font-size: 40px;
+    margin-top: 50px;
+  }
+  .arrow {
+    height: 105px;
+    margin-top: 35px;
+  }
+  .header-image {
+    width: 375px;
+    height: 388px;
+  }
+  .section-one {
+    width: 375px;
+    height: 2398px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .first-container {
+    width: 375px;
+    height: 312px;
+  }
+  .main-containers {
+    width: 375px;
+  }
+  .egg {
+    width: 375px;
+    height: 312px;
+  }
+  .orange {
+    width: 375px;
+    height: 600px;
+  }
+  .coctail {
+    width: 375px;
+  }
+  .cherry {
+    width: 375px;
+  }
+  .section-two {
+    width: 375px;
+    height: 1258px;
+  }
+
+  .second-down {
+    flex-direction: column;
+  }
+  footer {
+    width: 375px;
+  }
+  .footer-up {
+    width: 375px;
+    height: 375px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-containers {
+    width: 186px;
+    height: 186px;
+  }
+  .footer-image {
+    width: 188px;
+    height: 188px;
+  }
+  .footer-down {
+    width: 375px;
+  }
+}
